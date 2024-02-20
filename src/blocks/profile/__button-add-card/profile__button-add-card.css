@@ -1,0 +1,24 @@
+.profile__button-add-card {
+  min-width: 150px;
+  height: 50px;
+  background-image: url(../../../images/Plus.svg);
+  background-color: unset;
+  background-repeat: no-repeat;
+  background-size: 22px 22px;
+  background-position: center;
+  border: 2px solid #FFFFFF;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.profile__button-add-card:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 320px) {
+  .profile__button-add-card {
+    position: inherit;
+    width: 100%;
+    background-size: 16px 16px;
+  }
+}

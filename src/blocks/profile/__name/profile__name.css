@@ -1,0 +1,18 @@
+.profile__name {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  color: white;
+  margin: 0;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  padding: 0 10px 10px 30px;
+}
+
+@media screen and (max-width: 570px) {
+  .profile__name {
+    padding: 24px 0 8px 0;
+    position: relative;
+    width: 100%;
+  }
+}

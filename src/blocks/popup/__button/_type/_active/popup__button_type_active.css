@@ -1,0 +1,12 @@
+.popup__button_type_active {
+  background-color: rgb(0, 0, 0);
+  border: none;
+  color: white;
+  cursor: pointer;
+  opacity: 1;
+  pointer-events: all;
+}
+
+.popup__button_type_active:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}

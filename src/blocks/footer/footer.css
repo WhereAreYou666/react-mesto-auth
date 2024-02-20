@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  padding-bottom: 60px;
+  color: #545454;
+  max-width: 880px;
+  width: 100%;
+  margin: auto;
+}
+
+@media screen and (max-width: 570px) {
+  .footer {
+    box-sizing: border-box;
+    padding: 0 20px 60px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    padding-left: 19px;
+    padding-bottom: 36px;
+  }
+}

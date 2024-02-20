@@ -1,0 +1,16 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  background-color: #000000;
+  font-family: 'Inter', Arial, sans-serif;
+  padding: 0 30px;
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 570px) {
+  .page {
+    padding: 0;
+  }
+}

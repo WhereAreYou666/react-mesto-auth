@@ -1,0 +1,29 @@
+.popup__input {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  width: 358px;
+  height: 27px;
+  margin: 0;
+  border: 0;
+  border-bottom: 1px solid #00000033;
+  margin-bottom: 5px;
+}
+
+.popup__input::placeholder {
+  color: #C4C4C4;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 550px) {
+  .popup__input {
+    margin-bottom: 27px;
+    max-width: 238px;
+  }
+
+  .popup__input:last-of-type {
+    margin-bottom: 45px;
+  }
+}
